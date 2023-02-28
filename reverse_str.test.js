@@ -8,5 +8,5 @@ test('properly count string letters', () => {
   const resultStrOne = stringlengh(strOne)
 
   // Assert
-  expect(resultStrOne).toBe('esrevorcim olleh')
+  expect(resultStrOne).toBe('!esrevorcim olleh')
 })
