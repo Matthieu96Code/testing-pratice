@@ -1,12 +1,21 @@
 const stringlengh = require('./strlgh')
 
-test('properly reverse string', () => {
+test('properly count string letters', () => {
   // Arrange
-  const str = 'hello'
+  const strOne = 'hello'
+  const strTwo = ''
+  const strThree = 'Hi'
+  const strFour = 'Microverse, a remote sowftware development school'
 
   // Act
-  const result = stringlengh('hello')
+  const resultStrOne = stringlengh(strOne)
+  const resultStrTwo = stringlengh(strTwo)
+  const resultStrThree = stringlengh(strThree)
+  const resultStrFour = stringlengh(strFour)
 
   // Assert
-  expect(result).toBe(5)
+  expect(resultStrOne).toBe(5)
+  expect(resultStrTwo).toBe(0)
+  expect(resultStrThree).toBe(2)
+  expect(resultStrFour).toBe(49)
 })
