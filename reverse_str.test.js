@@ -1,6 +1,6 @@
 const stringlengh = require('./reverse_str')
 
-test('properly count string letters', () => {
+test('properly reverse string', () => {
   // Arrange
   const strOne = 'hello microverse!'
 
