@@ -1,5 +1,5 @@
 const stringlengh = (str) => {
-  if (str > 1 && str <= 10) {
+  if (str.length > 1 && str.length <= 10) {
     return str.length
   } else {
     throw Error('error found')
