@@ -8,5 +8,5 @@ test('properly capitalize first letter of string', () => {
   const resultStrOne = capitalize(strOne)
 
   // Assert
-  expect(resultStrOne).toBe('Happy coding')
+  expect(resultStrOne).toBe('Happy coding!')
 })
